@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+label.control-label {
+    color: $field_title_color;
+}
+textarea {
+    resize: none;
+}
+.form-group-inline-checkbox {
+    display: flex;
+
+    input {
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        margin-left: 10px;
+    }
+}
+.form-group .help-block {
+    position: inherit;
+    bottom: inherit;
+}
